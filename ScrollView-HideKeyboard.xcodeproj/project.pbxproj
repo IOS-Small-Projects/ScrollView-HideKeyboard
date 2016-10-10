@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336772541DAB671800C6F0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336772531DAB671800C6F0E9 /* AppDelegate.swift */; };
+		336772561DAB671800C6F0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336772551DAB671800C6F0E9 /* ViewController.swift */; };
+		336772591DAB671800C6F0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336772571DAB671800C6F0E9 /* Main.storyboard */; };
+		3367725C1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3367725A1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodeld */; };
+		3367725E1DAB671800C6F0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3367725D1DAB671800C6F0E9 /* Assets.xcassets */; };
+		336772611DAB671800C6F0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3367725F1DAB671800C6F0E9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		336772501DAB671700C6F0E9 /* ScrollView-HideKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView-HideKeyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		336772531DAB671800C6F0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		336772551DAB671800C6F0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		336772581DAB671800C6F0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3367725B1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScrollView_HideKeyboard.xcdatamodel; sourceTree = "<group>"; };
+		3367725D1DAB671800C6F0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336772601DAB671800C6F0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		336772621DAB671800C6F0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3367724D1DAB671700C6F0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336772471DAB671700C6F0E9 = {
+			isa = PBXGroup;
+			children = (
+				336772521DAB671800C6F0E9 /* ScrollView-HideKeyboard */,
+				336772511DAB671700C6F0E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336772511DAB671700C6F0E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336772501DAB671700C6F0E9 /* ScrollView-HideKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336772521DAB671800C6F0E9 /* ScrollView-HideKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				336772531DAB671800C6F0E9 /* AppDelegate.swift */,
+				336772551DAB671800C6F0E9 /* ViewController.swift */,
+				336772571DAB671800C6F0E9 /* Main.storyboard */,
+				3367725D1DAB671800C6F0E9 /* Assets.xcassets */,
+				3367725F1DAB671800C6F0E9 /* LaunchScreen.storyboard */,
+				336772621DAB671800C6F0E9 /* Info.plist */,
+				3367725A1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodeld */,
+			);
+			path = "ScrollView-HideKeyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3367724F1DAB671700C6F0E9 /* ScrollView-HideKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336772651DAB671800C6F0E9 /* Build configuration list for PBXNativeTarget "ScrollView-HideKeyboard" */;
+			buildPhases = (
+				3367724C1DAB671700C6F0E9 /* Sources */,
+				3367724D1DAB671700C6F0E9 /* Frameworks */,
+				3367724E1DAB671700C6F0E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScrollView-HideKeyboard";
+			productName = "ScrollView-HideKeyboard";
+			productReference = 336772501DAB671700C6F0E9 /* ScrollView-HideKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336772481DAB671700C6F0E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Introp;
+				TargetAttributes = {
+					3367724F1DAB671700C6F0E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3367724B1DAB671700C6F0E9 /* Build configuration list for PBXProject "ScrollView-HideKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336772471DAB671700C6F0E9;
+			productRefGroup = 336772511DAB671700C6F0E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3367724F1DAB671700C6F0E9 /* ScrollView-HideKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3367724E1DAB671700C6F0E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336772611DAB671800C6F0E9 /* LaunchScreen.storyboard in Resources */,
+				3367725E1DAB671800C6F0E9 /* Assets.xcassets in Resources */,
+				336772591DAB671800C6F0E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3367724C1DAB671700C6F0E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336772561DAB671800C6F0E9 /* ViewController.swift in Sources */,
+				3367725C1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodeld in Sources */,
+				336772541DAB671800C6F0E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		336772571DAB671800C6F0E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336772581DAB671800C6F0E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3367725F1DAB671800C6F0E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				336772601DAB671800C6F0E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		336772631DAB671800C6F0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336772641DAB671800C6F0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336772661DAB671800C6F0E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollView-HideKeyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ScrollView-HideKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		336772671DAB671800C6F0E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ScrollView-HideKeyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.ScrollView-HideKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3367724B1DAB671700C6F0E9 /* Build configuration list for PBXProject "ScrollView-HideKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336772631DAB671800C6F0E9 /* Debug */,
+				336772641DAB671800C6F0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336772651DAB671800C6F0E9 /* Build configuration list for PBXNativeTarget "ScrollView-HideKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336772661DAB671800C6F0E9 /* Debug */,
+				336772671DAB671800C6F0E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3367725A1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3367725B1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodel */,
+			);
+			currentVersion = 3367725B1DAB671800C6F0E9 /* ScrollView_HideKeyboard.xcdatamodel */;
+			path = ScrollView_HideKeyboard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 336772481DAB671700C6F0E9 /* Project object */;
+}
